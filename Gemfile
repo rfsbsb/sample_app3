@@ -8,7 +8,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '1.2.1'
-  gem 'guard-spork', '1.2.0'
+  gem 'guard-spork', '1.5.0'
   gem 'spork', '0.9.2'
 end
 
@@ -29,9 +29,9 @@ gem 'jquery-rails', '2.0.2'
 # Test gems on Macintosh OS X
 group :test do
   gem 'capybara', '1.1.2'
-  gem 'rb-fsevent', '0.9.1', :require => false
-  gem 'growl', '1.0.3'
   gem 'factory_girl_rails', '4.1.0'
+  gem 'rb-inotify', '~> 0.9'
+  gem 'libnotify', '0.5.9'  
 end 
 
 
